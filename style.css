@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav{
+    background-color:rgb(45, 44, 44);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title{
+    color: white;
+    font-size: 32px;
+    margin-left: 16px;}
+
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-links li{
+    margin: 14px;
+}
+
+.nav-links li a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn{
+    box-shadow: 3pt 3pt 3pt 3pt black;
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: teal;
+    border: teal;
+}
+
